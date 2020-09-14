@@ -1,0 +1,10 @@
+
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 86, 86);
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+  

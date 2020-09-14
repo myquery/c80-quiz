@@ -1,0 +1,13 @@
+.quiz-info{
+    display: grid;
+    grid-template-rows: 7% auto;
+    place-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    line-height: 3rem;
+    color: #1a1717;
+    background-color: rgb(211, 211, 211);
+    height: 100%;
+  
+  
+  }

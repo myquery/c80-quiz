@@ -1,0 +1,79 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ 
+  }
+
+div.container{
+  display: grid;
+  grid-template-rows: 7% auto 7%;
+  /* place-items: center; */
+  min-height: 100vh; 
+  min-width: 100vw; 
+}
+
+app-quiz-header{
+  width: 100%;
+  height:100%;
+ -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #030303;
+  color: rgb(241, 238, 238);
+  z-index: 90;
+}
+app-quiz-footer{
+
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #030303;
+  }
+
+  
+  app-quiz-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 86, 86);
+    font-size: 0.7rem;
+    text-decoration: none;
+  }
+
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+      height: 16px;
+      margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }
