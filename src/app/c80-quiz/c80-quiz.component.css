@@ -1,6 +1,6 @@
 .quiz-info{
     display: grid;
-    grid-template-rows: 7% auto;
+    grid-template-rows: 5% auto;
     place-items: center;
     font-size: 3rem;
     padding: 1rem;
@@ -10,4 +10,19 @@
     height: 100%;
   
   
+  }
+
+  .timer{
+    font-size: 1rem;
+  }
+
+  .quiz-table{
+    border-radius: 1rem;
+    border:1 solid #9b9999;
+    margin: 1rem;
+    background: #dbd8d8;
+    width: 60%;
+    box-shadow: 0px 2px 60px 10px #a5a4a4;
+    text-align: center;
+    padding: 2rem;
   }

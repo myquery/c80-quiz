@@ -13,7 +13,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
-// import { MatTableDataSource } from '@angular/material';
+import {CdkTreeModule} from '@angular/cdk/tree'
+import {MatTreeModule} from '@angular/material/tree'
 
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
@@ -50,7 +51,9 @@ import { AppRoutingModule } from './app-routing.module';
     MatSortModule,
     MatTableModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CdkTreeModule,
+    MatTreeModule
   ],
   exports: [ MatTableModule],
   providers: [],
